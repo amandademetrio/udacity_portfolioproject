@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio Site</title>
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+</head>
+<body>
+    <header>
+        <div class="header_inner">
+            <img src="./images/udacity.png" alt="Udacity Logo Image">
+            <div class="header_title">
+                <h1 class="title_1">Amanda Demetrio</h1>
+                <h3 class="title_2">Front-End Ninja</h3>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="main_image">
+            <img srcset="./images/phone_400px.jpg 400w, ./images/phone_700px.jpg 700w, ./images/phone_900px.jpg 900w" 
+            sizes="(max-width: 400px) 400px, (max-width: 700px) 700px, 900px"
+            src="./images/default.jpg" alt="Main image for the portfolio website">
+        </section>
+        <section id="featured_articles">
+            <h3>Featured Work</h3>
+            <div class="listed_articles">
+                <article class="sigle_article">
+                    <img srcset="./images/puppy_400px.jpg 400w,  ./images/puppy_700px.jpg 700w, ./images/puppy_900px.jpg 900w"
+                    sizes="(max-width: 400px) 400px,
+                        (max-width: 700px) 700px,
+                        900px"
+                    src="./images/puppy_900px.jpg" 
+                    alt="Image for first featured article">
+                    <h3>Appify</h3>
+                    <p>https://amandademetrio.com</p>
+                </article>
+                <article class="sigle_article">
+                    <img srcset="./images/puppy2_400px.jpg 400w,  ./images/puppy2_700px.jpg 700w, ./images/puppy2_900px.jpg 900w"
+                    sizes="(max-width: 400px) 400px,
+                        (max-width: 700px) 700px,
+                        900px"
+                    src="./images/puppy2_900px.jpg" 
+                    alt="Image for first featured article">
+                    <h3>Sunflower</h3>
+                    <p>https://amandademetrio.com</p>
+                </article>
+                <article class="sigle_article">
+                    <img srcset="./images/puppy3_400px.jpg 400w,  ./images/puppy3_700px.jpg 700w, ./images/puppy3_900px.jpg 900w"
+                    sizes="(max-width: 400px) 400px,
+                        (max-width: 700px) 700px,
+                        900px"
+                    src="./images/puppy3_900px.jpg" 
+                    alt="Image for first featured article">
+                    <h3>Bokeh</h3>
+                    <p>https://amandademetrio.com</p>
+                </article>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
